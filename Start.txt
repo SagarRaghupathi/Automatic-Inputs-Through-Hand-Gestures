@@ -1,0 +1,7 @@
+
+
+
+Start-> Face Unlock -> (if_success) Logged IN -> Voice Inputs Gets Activated(Ex:Open Keyboard Opens the Virtual Keyboard), mouse will be automatically active,Hand gestures will also be active. 
+				    -> (else_Retry) 
+				    -> (else_Forgot)
+							->Re_Run Face_Recognization_Module(Based on Password Validation) and reset the user face.
